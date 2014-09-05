@@ -1,26 +1,12 @@
-Ionic App Base
+Ionic iOS animation flickering
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+This is very simple project with one button revealing panel (sliding in from the bottom). Works fine on Androids and desktops but flickers on iOS (both emulator and real device). 
 
-## Using this project
+I'm not using any other external libs, just Ionic built-in animations.
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
+It's quite hard to show it on video but check the [bug demonstration video](http://screencast.com/t/Ydw3lnX8o). There is only one flicker recorded but in reality there is much more than that. Please check out this project and try to emulate on iOS.
 
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
 
-```bash
-$ npm install -g ionic
-```
-
-Then run:
-
-```bash
-$ ionic start myProject tabs
-```
-
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+If you happen to know what it is and how to fix that, I'd be glad to read about it.
 
