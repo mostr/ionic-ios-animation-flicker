@@ -1,0 +1,13 @@
+<ion-view title="Sample">
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+    </ion-nav-bar>
+  <ion-content class="has-header" ng-controller="MainCtrl">
+    <div class="container">
+      <button class="btn btn__big centered primary" ng-click="toggleDetails()">toggle info</button>
+    </div>
+    <div class="panel panel-animated primary ng-hide" ng-show="detailsVisible">
+      Details here
+    </div>
+  </ion-content>
+</ion-view>
